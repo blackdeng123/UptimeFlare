@@ -61,7 +61,8 @@ const workerConfig: WorkerConfig = {
       hideLatencyChart: false,
       expectedCodes: [200],
       timeout: 10000,
-    },
+    }
+    ],
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
     // More info at Wiki: https://github.com/lyc8503/UptimeFlare/wiki/Setup-notification
